@@ -8,6 +8,11 @@
 */
 
 /**
+ * Authenticate
+ */
+$router->post('authenticate', 'AuthenticateController@authenticate');
+
+/**
  * Post.
  */
 $router->get('posts', 'PostController@index');
